@@ -9,8 +9,23 @@
     </head>
     <body>
         <h1>en eller et?</h1>
-        <sub>Skriv dit ord, så kan vi finde ud af det:</sub>
         <input type="text" id="word" name="word" required>
+
+        <div id="response-common">
+            <b id="response-common-word">...</b> er fælleskøn.
+        </div>
+
+        <div id="response-neuter">
+            <b id="response-neuter-word">...</b> er intetkøn.
+        </div>
+
+        <div id="response-error">
+            Jeg kan ikke finde <b id="response-error-word">...</b> på Wiktionary. Er dit ord et substantiv?
+        </div>
+
+        <div id="response-default">
+            Indsæt dit <b id="response-default-word">ord</b>, så kan vi finde ud af dets køn.
+        </div>
 
         <script src="scripts/nellert.js"></script>
     </body>

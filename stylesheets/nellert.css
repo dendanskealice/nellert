@@ -1,3 +1,12 @@
 body {
     color: blue;
+    margin: auto;
+    padding-top: 2em;
+    height: fit-content;
+    text-align: center;
+    width: fit-content;
+}
+
+div {
+    padding-top: 1em;
 }
