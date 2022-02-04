@@ -1,12 +1,24 @@
 body {
-    color: blue;
+    color: black;
     margin: auto;
     padding-top: 2em;
     height: fit-content;
     text-align: center;
     width: fit-content;
+    font-family: 'Source Serif 4', sans-serif;
 }
 
 div {
     padding-top: 1em;
+}
+
+input {
+    background-color: #ececec;
+    border-radius: 5em;
+    border-style: none;
+    padding: 1em;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Source Serif 4', sans-serif;
 }

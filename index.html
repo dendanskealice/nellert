@@ -1,32 +1,36 @@
 <!doctype html>
-<html>
+<html lang="da">
     <head>
         <title>En eller et?</title>
-
-        <link rel="stylesheet" href="stylesheets/nellert.css">
-
+        <meta charset="utf-8">
+        <meta name="description" content="Slå ords køn op">
+        <meta name="keywords" content="danish, word, gender, lookup">
+        <meta name="author" content="dendanskealice">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="stylesheets/nellert.css">
+        <link type="text/css" rel="preconnect" href="https://fonts.googleapis.com">
+        <link type="text/css" rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600&display=swap">
         <script src="scripts/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-        <h1>en eller et?</h1>
+        <h1>Er...</h1>
         <input type="text" id="word" name="word" required>
-
+        <h1>...en eller et?</h1>
         <div id="response-common">
+            <h1 style="color:red;">EN!</h1>
             <b id="response-common-word">...</b> er fælleskøn.
         </div>
-
         <div id="response-neuter">
+            <h1 style="color:blue;">ET!</h1>
             <b id="response-neuter-word">...</b> er intetkøn.
         </div>
-
         <div id="response-error">
             Jeg kan ikke finde <b id="response-error-word">...</b> på Wiktionary. Er dit ord et substantiv?
         </div>
-
         <div id="response-default">
             Indsæt dit <b id="response-default-word">ord</b>, så kan vi finde ud af dets køn.
         </div>
-
         <script src="scripts/nellert.js"></script>
     </body>
 </html>
